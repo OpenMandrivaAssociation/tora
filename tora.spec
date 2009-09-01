@@ -132,7 +132,8 @@ EOF
 %{__install} -D --mode=644 src/icons/tora.xpm $RPM_BUILD_ROOT%{_iconsdir}/hicolor/32x32/apps/tora.xpm
 %{__install} -D --mode=644 src/icons/toramini.xpm $RPM_BUILD_ROOT%{_iconsdir}/hicolor/16x16/apps/tora.xpm
 %{__install} -d $RPM_BUILD_ROOT%{_menudir}
-%{__install} -D --mode=644 src/templates/*.tpl $RPM_BUILD_ROOT%{_libdir}/
+%{__mkdir_p} $RPM_BUILD_ROOT%{_libdir}
+%{__install} --mode=644 src/templates/*.tpl $RPM_BUILD_ROOT%{_libdir}/
 
 # Explain the user we cannot provide the Oracle connector
 cp %{SOURCE1} README.urpmi
