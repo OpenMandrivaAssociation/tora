@@ -15,7 +15,7 @@ URL:		http://tora.sourceforge.net
 Group:		Development/Databases
 License:	GPLv2+
 BuildRoot:	%{_tmppath}/tora-root
-Requires:	libqscintilla-qt4_2
+
 Requires:	qt4-common
 Requires:	qt4-database-plugin-mysql
 Requires:	qt4-database-plugin-pgsql
