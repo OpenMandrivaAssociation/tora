@@ -1,6 +1,6 @@
 %define name	tora
 %define version	2.1.0
-%define release %mkrel 1
+%define release %mkrel 2
 
 Summary:	Toolkit for Oracle with MySQL and PostgreSQL support only
 Name:		%{name}
@@ -63,7 +63,7 @@ Icon=%{name}
 Terminal=false
 Type=Application
 X-KDE-StartupNotify=true
-Categories=X-MandrivaLinux-MoreApplications-Databases;Database;Office;KDE;Qt;
+Categories=X-MandrivaLinux-MoreApplications-Databases;Database;KDE;Qt;
 MimeType=application/x-tora;
 EOF
 
