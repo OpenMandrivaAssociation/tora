@@ -1,6 +1,6 @@
 %define name	tora
 %define version	2.1.2
-%define release %mkrel 1
+%define release %mkrel 2
 
 Summary:	Toolkit for Oracle with MySQL and PostgreSQL support only
 Name:		%{name}
@@ -78,8 +78,9 @@ cat > ${RPM_BUILD_ROOT}/%{_docdir}/tora/README.urpmi << EOF
 ATTENTION:
 This package of TOra doesn't include Oracle support.
 
-If you need Oracle support please install Oracle instant client
-and the tora-oracle package instead. 
+If you need Oracle support, please install Oracle instant client
+first and download tora-oracle package For Mandriva from
+http://www.sourceforge.net/projects/tora/files instead. 
 
 You can download Oracle instant client from Oracle web site 
 for free.
