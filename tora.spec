@@ -1,6 +1,6 @@
 %define name	tora
-%define version	2.1.2
-%define release %mkrel 2
+%define version	2.1.3
+%define release %mkrel 1
 
 Summary:	Toolkit for Oracle with MySQL and PostgreSQL support only
 Name:		%{name}
