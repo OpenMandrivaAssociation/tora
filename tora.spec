@@ -8,7 +8,7 @@ Version:	%{version}
 Release:	%{release}
 Source:		%{name}-%{version}.tar.bz2
 #Patch1:		fix_kde_theme_qt45.patch
-URL:		http://tora.sourceforge.net
+URL:		https://tora.sourceforge.net
 Group:		Development/Databases
 License:	GPLv2+
 BuildRoot:	%{_tmppath}/tora-root
